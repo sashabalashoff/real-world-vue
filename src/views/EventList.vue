@@ -23,7 +23,7 @@ export default {
       const { data } = await EventService.getEvents();
       this.events = data;
     } catch (error) {
-      console.log(error);
+      // console.error(error);
     }
   },
 };
